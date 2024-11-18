@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+exclude = ["debian*", "binaries*", "build*", "dist*"]
+
+[project]
+name = "bitcurator-python-tools"
+version = "1.0.0"
+dependencies = [
+    "dfxml @ git+https://github.com/dfxml-working-group/dfxml_python",
+    "prettytable>=3.9.0",
+]
+requires-python = ">=3.6"
+authors = [
+  {name = "Simson Garfinkle (simsong)"},
+  {name = "Corey Forman (digitalsleuth)", email = "github@digitalsleuth.ca"},
+]
+maintainers = [
+  {name = "Corey Forman (digitalsleuth)", email = "github@digitalsleuth.ca"},
+]
+description = "BitCurator python tools and scripts in an installable pip package"
+readme = "README.md"
+keywords = ["digital forensics", "dfir", "bitcurator", "bcc", "bitcurator-python-tools"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+Homepage = "https://github.com/bitcurator/bitcurator-python-tools"
+
+[project.scripts]
+identify-filenames = "bitcurator_python_tools.identify_filenames:main"
+bulk-diff = "bitcurator_python_tools.bulk_diff:main"
+build-stoplist = "bitcurator_python_tools.build_stoplist:main"
+cda-tool = "bitcurator_python_tools.cda_tool:main"
+cda2-tool = "bitcurator_python_tools.cda2_tool:main"
+post-process-exif = "bitcurator_python_tools.post_process_exif:main"
