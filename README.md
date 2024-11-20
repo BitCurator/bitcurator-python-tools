@@ -1,9 +1,15 @@
-# BitCurator Python Tools
-BitCurator Python 3 scripts as an installable pip package.  
+![Logo](https://github.com/BitCurator/bitcurator.github.io/blob/main/logos/BitCurator>
 
-Many of them have been modified to become pip installable from this repository, and have had code updates from the original.  
+# bitcurator-python-tools
 
-They have been modified to work on the BitCurator Environment.
+[![GitHub issues](https://img.shields.io/github/issues/bitcurator/bitcurator-python-tools.svg>
+[![GitHub forks](https://img.shields.io/github/forks/bitcurator/bitcurator-python-tools.svg)]>
+
+This repository provides an installable pip package for specific Python 3 scripts used in the BitCurator Environment.
+
+Many of these scripts originate from other tools; they have been modified to be pip installable from this repository, and have had code updates from the originals. 
+
+This repository is a dependency of [bitcurator-salt](https://github.com/bitcurator/bitcurator-salt), and any modifications must be validated in supported builds.
 
 ## Licenses 
 The scripts in this repository will contain a number of licenses, all of which can be found in the licenses directory above.  
