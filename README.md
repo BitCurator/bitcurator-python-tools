@@ -1,9 +1,9 @@
-![Logo](https://github.com/BitCurator/bitcurator.github.io/blob/main/logos/BitCurator>
+![Logo](https://github.com/BitCurator/bitcurator.github.io/blob/main/logos/BitCurator-Basic-400px.png)
 
 # bitcurator-python-tools
 
-[![GitHub issues](https://img.shields.io/github/issues/bitcurator/bitcurator-python-tools.svg>
-[![GitHub forks](https://img.shields.io/github/forks/bitcurator/bitcurator-python-tools.svg)]>
+[![GitHub issues](https://img.shields.io/github/issues/bitcurator/bitcurator-python-tools.svg)](https://github.com/bitcurator/bitcurator-python-tools/issues)
+[![GitHub forks](https://img.shields.io/github/forks/bitcurator/bitcurator-python-tools.svg)](https://github.com/bitcurator/bitcurator-python-tools/network)
 
 This repository provides an installable pip package for specific Python 3 scripts used in the BitCurator Environment.
 
